@@ -64,15 +64,13 @@ params:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:[your@email.edu]
+          url: mailto:salmae2@illinois.edu
         - name: Google Scholar
-          url: [your google scholar url]
+          url: https://scholar.google.com/citations?view_op=search_authors&mauthors=salma+el+otmani&hl=en&oi=ao
         - name: GitHub
-          url: [your github url]
-        - name: Twitter
-          url: [your twitter url]
+          url: https://github.com/salmaelotmani
         - name: LinkedIn
-          url: [your linkedin url]
+          url: https://linkedin.com/in/salmaelotmani
     assets:
         disableScrollBarStyle: true
     cover:
