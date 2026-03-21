@@ -24,10 +24,10 @@ menu:
 params:
     description: "This website hosts Salma El Otmani's research, projects, blog, and contact information."
     author: Salma El Otmani
-    DateFormat: "January 2006"
+    DateFormat: "March 2026"
     defaultTheme: light
     hideFooter: false
-    disableThemeToggle: false
+    disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
