@@ -48,7 +48,7 @@ params:
           enabled: true
           title: Salma El Otmani
           subtitle: "I am a PhD student in Computer Science at [Your University], advised by [Advisor Name]. My research focuses on [your research area]. Previously, I completed my BS in [field] at [undergrad institution]."
-          imageUrl: "picture.jpeg"
+          imageUrl: "Website Profile Pic.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
