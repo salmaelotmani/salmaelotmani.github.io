@@ -81,10 +81,10 @@ params:
 
   assets:
     disableScrollBarStyle: true
-    favicon: "icon.png"
-    favicon16x16: "icon.png"
-    favicon32x32: "icon.png"
-    apple_touch_icon: "icon.png"
+    favicon: "icon.jpeg"
+    favicon16x16: "icon.jpeg"
+    favicon32x32: "icon.jpeg"
+    apple_touch_icon: "icon.jpeg"
 
   cover:
     hiddenInList: false
