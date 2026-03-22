@@ -88,8 +88,6 @@ params:
 
   label:
     text: "Salma El Otmani"
-    icon: favicon.ico
-    iconHeight: 18
 
 markup:
   goldmark:
