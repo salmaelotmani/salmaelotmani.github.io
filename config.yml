@@ -1,93 +1,104 @@
 baseURL: "https://salmaelotmani.github.io/"
 title: Salma El Otmani
 theme: PaperMod
+
 enableInlineShortcodes: true
 enableRobotsTXT: true
+
 pagination:
   pagerSize: 20
+
 taxonomies:
-    tag: tags
+  tag: tags
+
 menu:
-    main:
-        - name: Research
-          url: papers/
-          weight: 2
-        - name: Projects
-          url: projects/
-          weight: 3
-        - name: Blog
-          url: blog/
-          weight: 4
-        - name: CV
-          url: cv.pdf
-          weight: 5
+  main:
+    - name: Research
+      url: papers/
+      weight: 2
+    - name: Projects
+      url: projects/
+      weight: 3
+    - name: Blog
+      url: blog/
+      weight: 4
+    - name: CV
+      url: cv.pdf
+      weight: 5
+
 params:
-    description: "This website hosts Salma El Otmani's research, projects, blog, and contact information."
-    author: Salma El Otmani
-    DateFormat: "March 2026"
-    defaultTheme: light
-    hideFooter: false
-    disableThemeToggle: false
-    ShowShareButtons: false
-    ShowReadingTime: false
-    disableSpecial1stPost: true
-    disableAnchoredHeadings: true
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
-    ShowCodeCopyButtons: true
-    ShowAllPagesInArchive: false
-    MainSections: ["papers","projects","blog"]
-    ShowToc: false
-    disableScrollToTop: true
-    TocOpen: true
-    ShowWordCount: false
-    UseHugoToc: true
-    comments: false
-    math: true
-    profileMode:
-          enabled: true
-          title: Salma El Otmani
-          subtitle: "I am a PhD student in Computer Science at [Your University], advised by [Advisor Name]. My research focuses on [your research area]. Previously, I completed my BS in [field] at [undergrad institution]."
-          imageUrl: "Website Profile Pic.jpeg"
-          imageWidth: 250
-          imageHeight: 300         
-          buttons:
-            - name: Research
-              url: papers/
-            - name: Projects
-              url: projects/
-            - name: Blog
-              url: blog/
-            - name: Archive
-              url: archive/
-    socialIcons:
-        - name: CV
-          url: cv.pdf
-        - name: Email
-          url: mailto:salmae2@illinois.edu
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?view_op=search_authors&mauthors=salma+el+otmani&hl=en&oi=ao
-        - name: GitHub
-          url: https://github.com/salmaelotmani
-        - name: LinkedIn
-          url: https://linkedin.com/in/salma-e-71769725a
-    assets:
-        disableScrollBarStyle: true
-    cover:
-        hiddenInList: false
-        hiddenInSingle: true
-    label:
-      text: "Salma El Otmani"
-      icon: favicon.ico
-      iconHeight: 18
+  description: "This website hosts Salma El Otmani's research, projects, blog, and contact information."
+  author: Salma El Otmani
+  DateFormat: "January 2006"
+  defaultTheme: light
+  hideFooter: false
+  disableThemeToggle: false
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: false
+  MainSections: ["papers", "projects", "blog"]
+  ShowToc: false
+  disableScrollToTop: true
+  TocOpen: true
+  ShowWordCount: false
+  UseHugoToc: true
+  comments: false
+  math: true
+
+  profileMode:
+    enabled: true
+    title: Salma El Otmani
+    subtitle: "I am a PhD student in Computer Science at the University of Illinois Urbana-Champaign. My research examines how novice programmers use and learn with large language models, with a focus on API learning, prompting, and computing education."
+    imageUrl: "picture.jpeg"
+    imageWidth: 250
+    imageHeight: 300
+    buttons:
+      - name: Research
+        url: papers/
+      - name: Projects
+        url: projects/
+      - name: Blog
+        url: blog/
+      - name: Archive
+        url: archive/
+
+  socialIcons:
+    - name: CV
+      url: cv.pdf
+    - name: Email
+      url: mailto:salmae2@illinois.edu
+    - name: Google Scholar
+      url: YOUR_SCHOLAR_PROFILE_URL
+    - name: GitHub
+      url: https://github.com/salmaelotmani
+    - name: LinkedIn
+      url: https://linkedin.com/in/salma-e-71769725a
+
+  assets:
+    disableScrollBarStyle: true
+
+  cover:
+    hiddenInList: false
+    hiddenInSingle: true
+
+  label:
+    text: "Salma El Otmani"
+    icon: favicon.ico
+    iconHeight: 18
+
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        guessSyntax: true
-        style: autumn
-    tableOfContents:
-        endLevel: 2
-        ordered: false
-        startLevel: 2
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    guessSyntax: true
+    style: autumn
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2
