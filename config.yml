@@ -55,7 +55,7 @@ params:
     title: Salma El Otmani
     subtitle: "I am a PhD student in Computer Science at the University of Illinois Urbana-Champaign. My research examines how novice programmers use and learn with large language models, with a focus on API learning, prompting, and computing education."
     imageUrl: "Mypicture.jpeg"
-    imageWidth: 250
+    imageWidth: 300
     imageHeight: 250
     buttons:
       - name: Research
