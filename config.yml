@@ -58,14 +58,16 @@ params:
     imageWidth: 330
     imageHeight: 250
     buttons:
-      - name: Research
-        url: papers/
-      - name: Projects
-        url: projects/
-      - name: Blog
-        url: blog/
-      - name: Archive
-        url: archive/
+      - name: About
+        url: about/
+    - name: Education
+      url: education/
+    - name: Projects
+      url: projects/
+    - name: Papers
+      url: papers/
+    - name: Blog
+      url: blog/
 
   socialIcons:
     - name: CV
