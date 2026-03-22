@@ -31,6 +31,11 @@
         {{- end }}
         {{- end }}
         <h1>{{ .title | default site.Title | markdownify }}</h1>
+
+        <p class="profile-email">
+          <a href="mailto:salmae2@illinois.edu">salmae2@illinois.edu</a>
+        </p>
+
         <span>{{ .subtitle | markdownify }}</span>
         {{- partial "social_icons.html" -}}
 
