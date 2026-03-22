@@ -73,7 +73,7 @@ params:
     - name: Email
       url: mailto:salmae2@illinois.edu
     - name: Google Scholar
-      url: YOUR_SCHOLAR_PROFILE_URL
+      url: https://scholar.google.com/citations?user=gnAVZWAAAAAJ&hl=en&oi=ao
     - name: GitHub
       url: https://github.com/salmaelotmani
     - name: LinkedIn
