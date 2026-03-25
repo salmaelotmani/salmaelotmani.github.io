@@ -1,0 +1,209 @@
+/* ─── Color theme: warm, professional, softly feminine ─── */
+:root {
+  --theme:         #FDFAF8;
+  --primary:       #2E2535;
+  --secondary:     #B5818A;
+  --tertiary:      #F2EAE8;
+  --content:       #3D3340;
+  --border:        #E8DDD8;
+  --lightcolor:    #DDD0CA;
+  --darkcolor:     #8A6070;
+  --lineheight:    3;
+  --header-height: 80px;
+}
+
+/* ─── Break free from main-width constraint ─── */
+.main {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+.main .profile {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  min-height: unset !important;
+  padding: 0 !important;
+  width: 100%;
+}
+
+/* ─── Two-column layout: fills the page ─── */
+.two-column-profile {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  gap: 50px !important;
+  width: 100%;
+  max-width: 1300px;
+  padding: 80px 80px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+/* ─── Left: photo + stacked socials ─── */
+.profile-left {
+  flex: 0 0 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile-left img {
+  width: 400px;
+  height: auto;
+  border-radius: 18px;
+  border: none !important;
+  display: block;
+}
+
+.profile-left-socials {
+  margin-top: 28px;
+  width: 100%;
+}
+
+.profile-left-socials .social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.profile-left-socials .social-icons a {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--darkcolor);
+  text-decoration: none;
+  transition: color 0.2s;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.profile-left-socials .social-icons a:hover {
+  color: var(--secondary);
+}
+
+.profile-left-socials .social-icons svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+/* ─── Right: name, email, bio ─── */
+.profile-right {
+  flex: 1;
+  min-width: 0;
+  padding-top: 12px;
+}
+
+.profile-right h1 {
+  margin-top: 0;
+  margin-bottom: 6px;
+  font-size: 3rem;
+  color: var(--primary);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.profile-email {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-size: 1.25rem;
+  color: var(--secondary);
+  letter-spacing: 0.01em;
+  padding-left: 4px;
+}
+
+.profile-email a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.profile-email a:hover {
+  text-decoration: underline;
+}
+
+.profile-bio {
+  font-size: 1.25rem;
+  line-height: 2;
+  color: var(--content);
+  margin-bottom: 0;
+}
+
+/* Hide homepage buttons — nav handles navigation */
+.profile-right .buttons {
+  display: none;
+}
+
+/* ─── Nav bar ─── */
+.logo {
+  align-items: center;
+}
+
+.nav {
+  background: var(--theme) !important;
+  border-bottom: 1px solid var(--border);
+  padding: 0 80px !important;
+  max-width: 100% !important;
+  box-sizing: border-box;
+}
+
+.logo a {
+  color: var(--primary) !important;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+#menu a {
+  font-size: 0.92rem !important;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--darkcolor) !important;
+  transition: color 0.2s;
+}
+
+#menu a:hover {
+  color: var(--primary) !important;
+}
+
+#menu .active {
+  border-bottom: 2px solid var(--secondary) !important;
+  color: var(--primary) !important;
+}
+
+/* ─── Footer ─── */
+.footer {
+  background: var(--theme);
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+  color: var(--darkcolor);
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 900px) {
+  .two-column-profile {
+    flex-direction: column !important;
+    gap: 32px;
+    padding: 40px 32px;
+  }
+
+  .profile-left {
+    flex: none;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .profile-left img {
+    width: 100%;
+  }
+
+  .nav {
+    padding: 0 24px !important;
+  }
+}

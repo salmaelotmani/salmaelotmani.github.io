@@ -28,13 +28,19 @@
           <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
               height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
       {{- else }}
-      <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
-          height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+      <img draggable="false" src="{{ .imageUrl | relURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}" />
       {{- end }}
       {{- end }}
 
       <div class="profile-left-socials">
-        {{- partial "social_icons.html" -}}
+        <div class="social-icons">
+          {{- range site.Params.socialIcons }}
+          <a href="{{ trim .url " " | safeURL }}" target="_blank" rel="noopener noreferrer me" title="{{ (.title | default .name) | title }}">
+            {{ partial "svg.html" . }}
+            <span>{{ (.title | default .name) | title }}</span>
+          </a>
+          {{- end }}
+        </div>
       </div>
     </div>
 

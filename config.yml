@@ -13,9 +13,6 @@ taxonomies:
 
 menu:
   main:
-    - name: About
-      url: about/
-      weight: 1
     - name: Education
       url: education/
       weight: 2
@@ -28,9 +25,6 @@ menu:
     - name: Blog
       url: blog/
       weight: 5
-    - name: CV
-      url: cv.pdf
-      weight: 6
 
 params:
   description: "This website hosts Salma El Otmani's research, projects, blog, and contact information."
@@ -59,21 +53,10 @@ params:
   profileMode:
     enabled: true
     title: Salma El Otmani
-    subtitle: "I am a PhD student in Computer Science at the University of Illinois Urbana-Champaign. My research examines how novice programmers use and learn with large language models, with a focus on API learning, prompting, and computing education."
+    subtitle: "I am a PhD student in Computer Science at the University of Illinois Urbana-Champaign. My research examines how novice programmers use and learn with large language models, with a focus on API learning, prompting, and computing education.\n\nI am advised by [Prof. Katie Cunningham](https://www.kicunningham.com/) and am a member of the [TRAILS Lab](https://trailslab.web.illinois.edu/)."
     imageUrl: "Mypicture.jpeg"
     imageWidth: 330
     imageHeight: 250
-    buttons:
-      - name: About
-        url: about/
-      - name: Education
-        url: education/
-      - name: Projects
-        url: projects/
-      - name: Papers
-        url: papers/
-      - name: Blog
-        url: blog/
 
   socialIcons:
     - name: CV
@@ -87,10 +70,10 @@ params:
 
   assets:
     disableScrollBarStyle: true
-    favicon: "icon.jpeg"
-    favicon16x16: "icon.jpeg"
-    favicon32x32: "icon.jpeg"
-    apple_touch_icon: "icon.jpeg"
+    favicon: "Iicon.jpeg"
+    favicon16x16: "Iicon.jpeg"
+    favicon32x32: "Iicon.jpeg"
+    apple_touch_icon: "Iicon.jpeg"
 
   cover:
     hiddenInList: false
@@ -98,7 +81,8 @@ params:
 
   label:
     text: "Salma El Otmani"
-    icon: icon.jpeg
+    icon: Iicon.jpeg
+    iconHeight: 48
 
 markup:
   goldmark:
